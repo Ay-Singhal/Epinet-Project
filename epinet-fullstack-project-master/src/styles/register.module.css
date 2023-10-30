@@ -1,0 +1,124 @@
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:1.3rem;
+    margin-top: 2rem;
+}
+
+form>div>span{
+    color: brown;
+}
+
+input{
+    padding: .5rem;
+    width: 282px;
+    border: 1px solid gray;
+    outline: none;
+    border-radius: .3rem;
+}
+
+.button{
+    width:300px;
+    padding: .7rem;
+    border: none;
+    background-color: burlywood;
+    font-weight: 600;
+    border-radius: .2rem;
+    margin-top: 1rem;
+    color: rgb(128, 29, 29);
+    font-size: 1rem;
+}
+
+.button:hover{
+    background-color: rgb(215, 164, 97);
+    cursor: pointer;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 2rem;
+}
+
+.row>div{
+    display: flex;
+    flex-direction: column;
+        
+}
+
+.row>div>label, .login_form>div>label{
+    text-align: left;
+    padding-left: .2rem;
+    font-weight: 600;
+    font-size: .85rem;
+    padding-bottom: .4rem;
+}
+
+.row>div>span{
+    color: brown;
+    font-weight: 600;
+    font-size: .8rem;
+    text-align: left;
+}
+
+
+.login_form>div{
+    display: flex;
+    flex-direction: column;
+}
+
+.options{
+    display: flex;
+    flex-wrap: wrap;
+    width: 600px;
+    gap:1rem;
+    margin-top: -10px;
+}
+
+.options>div>input{
+    padding: 0;
+    width: 20px;
+    border: none;
+    outline: none;
+    border-radius: 0rem;
+    
+}
+
+.options>div>label{
+    font-weight: 600;
+    font-size: .9rem;
+    padding-left: .3rem;
+}
+
+.register{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.register>form{
+    /* width: 630px; */
+}
+
+.textarea{
+    display: flex;
+    flex-direction: column;
+    width: -webkit-fill-available;
+    width: 630px;
+}
+
+.textarea>label{
+    font-weight: 600;
+    font-size: .9rem;
+    align-self: flex-start;
+    padding-bottom: .4rem;
+}
+
+.textarea>textarea{
+    padding: .5rem;
+    height: 60px;
+}
+    

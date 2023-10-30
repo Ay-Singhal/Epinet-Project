@@ -1,0 +1,49 @@
+.container{
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.left{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-top: 3rem;
+    padding: 2rem;
+    border: 1px solid gray;
+}
+
+.row{
+    display: flex;
+    gap: 2rem;
+    justify-content: space-between;
+}
+
+.row>div{
+    font-weight: 600;
+    color: rgb(49, 49, 49);
+}
+
+.row>div:first-child{
+    font-weight: 500;
+    font-size: .9rem;
+    color: black;
+}
+
+
+.right{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.right>div{
+    font-weight: 600;
+    font-size: .9rem;
+    align-self: flex-start;
+}
+
+.right>div>span{
+    color: rgb(8, 157, 8);
+}
